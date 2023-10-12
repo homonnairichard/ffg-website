@@ -1,0 +1,151 @@
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black, 0 0 80px black;
+    }
+}
+
+body{
+    font-family: 'Arvo', serif;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+#fo{
+    background-color: #BB0007;
+    height: auto;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+.fooldal-kep{
+    width: 100%;
+    height: 100%;
+}
+.focim-meret{
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    margin-right: 6%;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none
+}
+.logo-kep{
+    max-width: 90%;
+    height: auto;
+}
+.glow {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+.logo-vonal{
+    width: 70%;
+}
+.centered-div{
+    margin: 0 auto;
+    width: 50%; 
+}
+
+h3{
+    color: white;
+}
+.bal{
+    color: white;
+    text-align: center;
+}
+
+.szerk{
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+
+.keret{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    max-width: fit-content;
+}
+.kep-meret{
+    max-width: 300px;
+}
+
+.elem-hatter{
+    background-color: rgb(255, 255, 255);
+}
+.kep-mozgatas{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.kep-keret{
+    border-radius: 6px;
+    border: 2px solid black;
+}
+
+.nagyitas {
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .nagyitas:hover {
+    -ms-transform: scale(9); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.1); 
+  }
+.egyedi-az{
+    font-size: 32px;
+
+}
+
+  /* Összetartó div kód. */
+
+  .ossz-div{
+      border: 1px solid black;
+      width: 1800px;
+      height: auto;
+  }
+.vonal{
+    margin-top: 0px;
+    width: 50%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+.fa-instagram {
+    background: #BB0007;
+    color: white;
+  }
+
+
+.resized-image {
+    width: 60%; /* Vagy bármilyen más méret, amit szeretnél */
+    height: auto; /* Az arányok megtartása érdekében */
+}
